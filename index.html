@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="topHeader">
+    <div class="header-container">
+      <div class="contact-info">
+        <section class="phone-info">
+          <img loading="lazy" src="assets/phone.svg" alt="Phone Icon" class="phone-icon" />
+          <span>04842886900</span>
+        </section>
+        <div class="vert-divider"></div>
+        <section class="email-info">
+          <img loading="lazy" src="assets/mail.svg" alt="Email Icon" class="email-icon" />
+          <span>care@extravelmoney.com</span>
+        </section>
+        <div class="vert-divider"></div>
+        <section class="whatsapp-info">
+          <img loading="lazy" src="assets/whatsapp.svg" alt="WhatsApp Icon" class="whatsapp-icon" />
+          <span>WhatsApp Us</span>
+        </section>
+      </div>
+      <nav class="nav-links">
+        <a href="#" class="nav-link">Offers</a>
+        <a href="#" class="nav-link">Blog</a>
+        <a href="#" class="nav-link">FAQ</a>
+        <a href="#" class="nav-link login-signup">Login / Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="headerContainer">
+    <div class="header">
+      <div class="logoContainer">
+        <img loading="lazy" src="assets/extravelMoneyLogo.png" class="header-img" />
+        <img src="assets/hamBurger.svg" class="hamBurger" alt="">
+      </div>
+      <div class="header-content">
+        <div class="header-item">
+          <a href="" class="header-title navMainItem">Foreign Exchange</a>
+          <img loading="lazy" src="assets/arrowDown.svg" class="header-icon" />
+        </div>
+        <div class="header-item">
+          <a href="" class="header-title navMainItem">Send Money</a>
+          <img loading="lazy" src="assets/arrowDown.svg" class="header-icon" />
+        </div>
+        <a href="" class="navMainItem">Tuition Fees</a>
+        <a href="" class="navMainItem">GIC/Blocked</a>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+  <div class="widgetSectionContainer">
+    <div class="widgetSectionImgContainer">
+      <img src="assets/line-map.png" class="widgetSectionImg" alt="">
+    </div>
+    <div class="widgetSection">
+
+
+      <div class="heroSection">
+        <div class="heroTextContainer">
+          <div class="heroTextHeadingContainer">
+            <h1 class="money-transfer-heading">Effortlessly <br> send money <br> worldwide</h1>
+            <div class="heroImg">
+              <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/f90ae7ce06158c162fd1240eb8314c0e615155d0b9f3272539e76b1327b9a5cf?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                alt="" class="responsive-img" />
+              <img loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/40acb79c5226b883261837347a5a54f10d82b516c2cef424438427dfab3bcebb?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                alt="" class="responsive-img" />
+            </div>
+
+          </div>
+
+
+          <div class="heroTextBody">
+            ExTravelMoney is an online marketplace for foreign exchange and remittance services in India. We empower
+            students and travellers going abroad to make the Right and the Best choice when it comes to booking foreign
+            exchange services from RBI authorized banks and money changers near their locality.
+          </div>
+        </div>
+      </div>
+      <div class="widgetContainer">
+        <div class="widgetToggle">
+          <div class="widgetToggle-overlay"></div>
+
+          <div class="widgetToggle-child toggleTT toggleSelected">
+            <img loading="lazy"
+              src="assets/ttToggleImg.svg"
+              class="widgetToggle-child-img" />
+            <span class="widgetToggle-child-text">Send Money</span>
+          </div>
+
+
+          <div class="widgetToggle-child toggleFX">
+            <img loading="lazy"
+              src="assets/fxToggleImg.svg"
+              class="widgetToggle-child-img-alt" />
+            <span class="widgetToggle-child-text">Foreign Exchange</span>
+          </div>
+        </div>
+
+
+        <div class="widgetSlabContainer">
+          <div class="widgetSlabContent">
+            <div class="SlabTitle">Send Money to</div>
+            <div class="dropDownHolder">
+              <div class="exchangeRateContainer">
+                <div class="currencyContainer">
+                  <div class="currencyBox">
+                    <img class="currencyIcon" loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/045106521d0a1eabdf90bc31357eb2baa30c1420ddd90884a75da2ca3f54db2e?apiKey=df7d3f2c6db444dfb274d484c24387df&" />
+                    <div class="currency">USD</div>
+                    <img class="dropdownIcon " id="currencyDropDownIcon" loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ef2ced0d0e92292e4c68328c03e7b07ad83b4f7170075ec2dd4b2dbce7c79a8?apiKey=df7d3f2c6db444dfb274d484c24387df&" />
+                  </div>
+                </div>
+                <div class="amount"><input type="text" value="$1000" class="amountInput"></div>
+              </div>
+
+
+              <div class="dropDownContainer">
+                <div class="dropDownHeader">
+                  <input type="text" placeholder="Type a currency / country" class="dropDownText">
+                  <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b17dc17f8c5f6c2907b480041a3f46e9c35f1ed312e092bd50548b1246b460a0?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                    class="dropDownHeaderImg" />
+                </div>
+                <div class="dropDownItemsContainer">
+                  <div class="dropDownItem">
+                    <div class="dropDownSub">
+                      <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e4a18db7de10275d66ce38288055630845316b580cc771944584601b3d9fde5?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                        class="dropDownItemImg" />
+                      <div class="dropDownItemText">United States of America (USD - US Dollar)</div>
+                    </div>
+
+                  </div>
+                  <div class="dropDownItem">
+                    <div class="dropDownSub">
+                      <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/87b0077b834760d99316180d95319dd7a01ea34c2b78515fb8deee734592bee1?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                        class="dropDownItemImg" />
+                      <div class="dropDownItemText">United Kingdom (GPB - Pound)</div>
+                    </div>
+
+                  </div>
+                  <div class="dropDownItem">
+                    <div class="dropDownSub">
+                      <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/cebe3774abff6485ef7d41b8cee806c9edd3b33abfb05a5882f1e4f96ed425ce?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                        class="dropDownItemImg" />
+                      <div class="dropDownItemText">United States of America -- USD</div>
+                    </div>
+                  </div>
+                  <div class="dropDownItem">
+                    <div class="dropDownSub">
+                      <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/c5105692c5782fa21048c8279f35925ab02094deffe26c5c7d26b3cdb17eaffe?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                        class="dropDownItemImg" />
+                      <div class="dropDownItemText">United States of America -- USD</div>
+                    </div>
+                  </div>
+                  <div class="dropDownItem">
+                    <div class="dropDownSub">
+                      <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a4e62f970a9e014f5f3c81a31649d170e93a7d8b8611b5fcc4646a31d36a8eca?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                        class="dropDownItemImg" />
+                      <div class="dropDownItemText">United States of America -- USD</div>
+                    </div>
+
+                  </div>
+                  <div class="dropDownItem">
+                    <div class="dropDownSub">
+                      <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a0a45f15a307be4d0d82d5fe5deeffd3c12ead6268ba154610472a9a2f3287b4?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                        class="dropDownItemImg" />
+                      <div class="dropDownItemText">United States of America -- USD</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rateInfo">
+              <span class="currentRate">Current Rate</span>
+              <span class="rate">FX: 1.00 USD – 84.2595 INR</span>
+            </div>
+          </div>
+          <div class="purposeContainer">
+            <div class="purposeTitle">Purpose of Remittance</div>
+            <div class="purposeDetail">
+              <div class="purposeText">College fee payment</div>
+              <img class="dropdownIcon" -- loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ed27fa5c2fd9dd60fb1d0593d356d70b8fdd46c4c7e2c21745f286f19b901607?apiKey=df7d3f2c6db444dfb274d484c24387df&" />
+            </div>
+            <div class="continueButton">Continue</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="adSpace">
+    <div class="adSpace-wrapper">
+      <div class="adSpace-container">
+        <div class="adSpace-column">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ddbbed5d60bf2290e2db033c7c281eca1e44c4df3ca1674966e5f1e1d8659a5d?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+            class="adSpace-img" />
+        </div>
+        <div class="adSpace-column">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/77e68ba799a091b62a7b95a0e8d4e85862ba6edb2b3a8cf43e947260372281d2?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+            class="adSpace-img" />
+        </div>
+        <div class="adSpace-column">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/3a387c976ce9d3dbbac59e7cc2dff2c05ec97e8aedb043134eaa91314fbd0341?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+            class="adSpace-img" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="howItWorkSectionContainer">
+    <div class="howItWorkSection">
+      <div class="howItWorkSection-title">How it Works?</div>
+      <div class="howItWorkSection-step-header">
+        <div class="howItWorkSection-option howItWorkSection-option-selected">Send Money</div>
+        <div class="howItWorkSection-option">Forex Exchange</div>
+      </div>
+      <div class="howItWorkSection-content">
+
+        <div class="howItWorkSection-steps">
+          <div class="howItWorkSection-step">
+
+            <div class="howItWorkSection-step-content">
+              <div class="howItWorkSection-step-itemContainer">
+                <div class="howItWorkSection-step-item">
+                  <div class="howItWorkSection-step-icon">
+                    <img loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5a477e765d848b0ca45d1f8f9b7185d4c8710859081c28562f3a7d406f2e775?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                      class="howItWorkSection-step-image" />
+                    <div class="howItWorkSection-step-number">1</div>
+                  </div>
+                  <div class="howItWorkSection-step-label">Compare Rates</div>
+                  <div class="howItWorkSection-step-description">Compare rates offered by RBI authorized money changers
+                    or banks in your city</div>
+                </div>
+              </div>
+              <div class="howItWorkSection-step-itemContainer">
+                <div class="howItWorkSection-step-item">
+                  <div class="howItWorkSection-step-icon">
+                    <img loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/30cce4ca84a35d0cbb063a3e5c81be32ad5992e77115fa438bad7b57915dce15?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                      class="howItWorkSection-step-image" />
+                    <div class="howItWorkSection-step-number">2</div>
+                  </div>
+                  <div class="howItWorkSection-step-label">Book Online</div>
+                  <div class="howItWorkSection-step-description">Choose a provider & book your money transfer or
+                    currency exchange transaction.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="howItWorkSection-step">
+            <div class="howItWorkSection-step-content">
+              <div class="howItWorkSection-step-itemContainer">
+                <div class="howItWorkSection-step-item">
+                  <div class="howItWorkSection-step-icon">
+                    <img loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/8544db5c9562c56ff9ad235ce40619520a95ccf704fd0e22fda69a92e1f8282d?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                      class="howItWorkSection-step-image" />
+                    <div class="howItWorkSection-step-number">3</div>
+                  </div>
+                  <div class="howItWorkSection-step-label">Make Payment</div>
+                  <div class="howItWorkSection-step-description">Submit the KYC documents & make the payment directly to
+                    the bank / money changer</div>
+                </div>
+              </div>
+              <div class="howItWorkSection-step-itemContainer">
+                <div class="howItWorkSection-step-item">
+                  <div class="howItWorkSection-step-icon">
+                    <img loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/b16f68ee461b31f1b2b6c810c5277d5dedfa7e26397206713713db1cd1328724?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+                      class="howItWorkSection-step-image" />
+                    <div class="howItWorkSection-step-number">4</div>
+                  </div>
+                  <div class="howItWorkSection-step-label">Done!</div>
+                  <div class="howItWorkSection-step-description">Your wire transfer or currency exchange transaction
+                    will now be processed.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="howItWorkSection-illustration">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/6db070c906b83a484902d48220f707cb84f2df2de7b61f6fe5d819f8f53f0de4?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+            class="howItWorkSection-illustration-image" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="featureSectionContainer">
+    <div class="featureSection">
+      <div class="featureSection-title">Why Buy Forex Online via ExTravelMoney?</div>
+      <div class="featureSection-cardsGroup">
+        <div class="featureSection-card">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ae77fd153ab0c950f1bf98116c033b0cfbda18ca23ff5884032b73d5ecedf3c?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+            class="featureSection-card-img" />
+          <div class="featureSection-card-title">Marketplace Advantage</div>
+          <div class="featureSection-card-description">Being a Forex marketplace, every exchange house here tries to
+            outbid others. Result, you get the best exchange rate in the market!!</div>
+        </div>
+        <div class="featureSection-card">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/47f931bd2039871be1336af5332090ed4be7aa4caaa70d95a5b13570dd9e7b3e?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+            class="featureSection-card-img" />
+          <div class="featureSection-card-title">Fast Processing</div>
+          <div class="featureSection-card-description">We understand your commitments and that is why we strive to
+            complete every transaction, the same day of placing the order.</div>
+        </div>
+        <div class="featureSection-card">
+          <div class="featureSection-card-badge">
+            <div class="featureSection-card-badge-inner"></div>
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca5ee6b72b2b1aeb3e32c2830fe7442ef76250ea0bc0f88e50de2d78adcf3de8?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="featureSection-card-badge-img" />
+          </div>
+          <div class="featureSection-card-title">Zero Commission!</div>
+          <div class="featureSection-card-description">We charge absolutely zero commission on every transaction. No
+            hidden charges either! Pay directly to the chosen exchange house or bank.</div>
+        </div>
+
+        <div class="featureSection-card">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/c03f5e9de589a6b4a82c4bd753070f7cabcc4007e7da340af3a6d9cfe906a10d?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+            class="featureSection-card-img" />
+          <div class="featureSection-card-title">Lock Exchange Rates</div>
+          <div class="featureSection-card-description">Forex exchange rates can fluctuate dramatically even on the same
+            day. At ExTravelMoney, you can freeze the rate for up to 3 days!</div>
+        </div>
+        <div class="featureSection-card">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/542a837b9dda1e24a310dfe6da9c0b228f2e5bddbac1736edb9d820e6a43ea6f?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+            class="featureSection-card-img" />
+          <div class="featureSection-card-title">6000+ Stores</div>
+          <div class="featureSection-card-description">6000+ tied up stores across India! This large network helps us
+            give you multiple stores to choose from in almost all locations.</div>
+        </div>
+        <div class="featureSection-card">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/8476ec38ffd68274a28f6fc6eeff6ff7323c13cebfc6fcfbdbba60f0431861af?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+            class="featureSection-card-img" />
+          <div class="featureSection-card-title">Expert Guidance</div>
+          <div class="featureSection-card-description">Our forex experts would guide you through the entire process.
+            They would educate you on forex limits, KYC, TCS and everything else.</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="countrySelectionContainerMain">
+    <div class="countryListSection-heading">Send money everywhere now</div>
+    <div class="countrySelectionContainer"
+      style="background: url('https://cdn.builder.io/api/v1/image/assets/TEMP/c0eba05e261ff05ed461f1dad36bb6c695b1c2e755d47e664a17cf86f4b810f9?apiKey=df7d3f2c6db444dfb274d484c24387df&');background-position: center center;background-size: cover;background-repeat: no-repeat;">
+
+      <div class="countryListSection">
+        <div class="countryListSection-background">
+
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/5618c10a85e3264d1eea9190bd215b9efe638048bd66113f124a22a2d99aba32?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">USA</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/ea964f3212d49b9089feabdc0255f4f8181cee556a5d865bbb4bed2dbf1c496c?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Canada</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/be61b9a4b6c84223cd9ebc654a4830a366c96aeb0dd6e01628b1b513edf27980?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Qatar</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/5feac8aa9f9a7da54944726fdc10a05e4f53cdc7a77848640b6f96e316d64dc4?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Oman</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f788574972075c54bbfbf044ffbf5f80d08606556999ac83d6a529b79d29b72?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Austrlia</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/903453ca9dabeb4fda40ecfb404f2b4fcf6d7935f3ba403ef79b265203690bbb?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">South Africa</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/abab5719d54dd3200ea892aa74d72524426454f54f5be89f88816d310b71c19b?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Italy</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/f511c9d71151bd0fc243f9dc09cfe1c2f3965bff3696281163e0d9834d0a47ba?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Srilanka</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/c82b781ac2370f2d3331bcb7311907cffaf79d8cea5ac1c2e180fd13254a448a?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">UK</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/0a25dba912a69a67ae949164c9289ae05af797239da6ad76e988045297b90575?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Malaysia</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/d60405e0767c37ad4c4032d2308314313de9ef7f1c468b9e3b7eff8aa1ca0bb9?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Uruguay</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/42d4bfc4ff62e3fe39fd0491850ed6dc171a0f9dd8bcccd2649abf9042e94276?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Finland</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/3b11f2b4176905292d44c560c125b4a23537206ee47c163738d02c91eb6a9a5e?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Kuwait</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/dce5048cd01a46cfd8b4a37e870b9ec4c0be7295d6cf9c4cedbf455b8a81216b?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Iran</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/80a27b46cb69675f9f35739addc200db75e0e83658429881a42a797ff0e34045?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">Hong Kong</div>
+          </div>
+          <div class="countryListSection-country">
+            <img loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/49836e3b293a27f33d00275a08826eb453453c9608309ef31894e9abf2a70be5?apiKey=df7d3f2c6db444dfb274d484c24387df&"
+              class="countryListSection-country-img" />
+            <div class="countryListSection-country-name">France</div>
+          </div>
+        </div>
+        <span class="countryListSection-more">More Countries</span>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- <div class="pressSection"> 
+        <div class="pressSection-container"> 
+          <div class="pressSection-row"> 
+            <div class="pressSection-column"> 
+              <div class="pressSection-content"> 
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8f882c36c318c1846b45ca5a1c4612058bd46ec0431fdbde14db035997345e37?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="pressSection-img" /> 
+                <div class="pressSection-text"> 
+                  “...Travelers can compare the rates of various dealers in their city and get forex delivered...” 
+                </div> 
+              </div> 
+            </div> 
+            <div class="pressSection-column"> 
+              <div class="pressSection-content"> 
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/684fb6555ee7d18c82b6d4e073d4bd147339c593c2e165de1e8ffa9b2ae914bd?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="pressSection-img" /> 
+                <div class="pressSection-text"> 
+                  “...Extravelmoney ensures a smooth experience for customers while transferring money abroad...&quot; 
+                </div> 
+              </div> 
+            </div> 
+            <div class="pressSection-column"> 
+              <div class="pressSection-content"> 
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/e6bfd8095c1e36983e0824e65008c24b45e651621ee268ef105e9181aa1b2106?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="pressSection-img" /> 
+                <div class="pressSection-text"> 
+                  “...competition among the different forex providers in the platform leads to better deals for the customers...” 
+                </div> 
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+      </div>  -->
+
+
+
+
+
+
+
+
+
+  <!-- <div class="testimonialSection">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/05efe2d335e3db5d87f63f9f5f976972380ed5dc8f129b1150e538bfd3921fa3?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-img" />
+        <div class="testimonialSection-content">
+          <div class="testimonialSection-header">Testimonials</div>
+          <div class="testimonialSection-testimonials">
+            <div class="testimonialSection-testimonial">
+              <div class="testimonialSection-testimonial-header">
+                <div class="testimonialSection-testimonial-name">Sanketh Rao</div>
+                <div class="testimonialSection-testimonial-time">1 year ago</div>
+              </div>
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7517dc91d00e44eeea9fae4be59d23701a1bbf4b81d6449e8a04a872814c2ee8?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-testimonial-avatar" />
+              <div class="testimonialSection-testimonial-stars">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a7ac207dbe5beab2f69c671eb6a22cef1175be4f22a46ad666882855d182e25?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-star" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/60d9316956c2df0b0572ed3ac3395ac81802e320abc6602945ca4bf8e4d932ec?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-star" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b9681b97da93a23b596af7898bc0fde68c7d7fea9db38d91bf55cf2646b342a?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-star" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1a5467734da596b10a06e592138219bd1a00c0260210b954ebd263627491b5ef?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-star" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ba4b13d713ad76c3d34fd7819bc101ff298864f1af3bfdfd7447edc78fc2b40?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-star" />
+              </div>
+              <div class="testimonialSection-testimonial-text">
+                This has been the easiest and most economical way to transfer money to Canada. I got in touch with them through a friend's recommendation. Ms. Mary processed things for me so quickly. Even after moving to Canada, I used their service, again happened absolutely seamlessly.
+              </div>
+            </div>
+            <div class="testimonialSection-testimonial">
+              <div class="testimonialSection-testimonial-header">
+                <div class="testimonialSection-testimonial-name">Vaishnav Meduri</div>
+                <div class="testimonialSection-testimonial-time">1 year ago</div>
+              </div>
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/44e0f5795ffe068b506b059ec1c02ad9af052f1f3edb7e3d66d725487789a634?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-testimonial-avatar" />
+              <div class="testimonialSection-testimonial-stars">
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3c96aae13dec8b7b55d1f3db1c2a265df7790459056ce43bae87f8c3018456c3?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-star" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4202ecb993c656fed0dea8b999fad2aa65458de6fe144fd696ca865fce6babd5?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-star" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7be2fd6a6b8ed813672e2e0758ecc4c2e85d953a986a61590d8934ceaaafdb35?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-star" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b98422f65d4226b4ae2acb52b15f9704968269f781f77d839fc88b0cf657b09?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-star" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a9629e6532f6c8db0135e8f99314d9a31803d195dc29c9312f9ebb9239bd7690?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-star" />
+              </div>
+              <div class="testimonialSection-testimonial-text">
+                Did a transaction for the first time for my son's education requirements for 20k USD. Got a savings of INR 25k compared to bank rate card. A friendly economical service by Extravelmoney.
+              </div>
+            </div>
+          </div>
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4de0b7940d9be164d4bbfdeda4faa452b2f9f7bfb3e4ba2b9ed1d1de1e67c97a?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="testimonialSection-footer-img" />
+        </div>
+      </div> -->
+
+
+
+
+
+
+  <!-- <div class="footerSection">
+        <div class="footerSectionInner">
+            <div class="footerSectionContent">
+                <div class="footerSectionMain">
+                    <div class="footerSectionItem">
+                        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/371d76d1bcbe0cbaf16027418f967a6450c199483c9661c5d919ee97fe42403d?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="footerSectionImage" />
+                        <div class="footerSectionText">
+                            ExTravelMoney is an online marketplace for foreign exchange and remittance services in India.
+                        </div>
+                        <div class="footerSectionTitle">Contact Us</div>
+                        <div class="footerSectionContact">
+                            <a href="tel:+914842886900">+91 4842886900</a>
+                            <a href="mailto:care@extravelmoney.com">care@extravelmoney.com</a>
+                            <div>Service Hours:</div>
+                            <div>Mon-Fri : 9:30 am to 6:00 pm</div>
+                            <div>Sat: 9:30 am to 2:00 pm</div>
+                        </div>
+                    </div>
+                    <div class="footerSectionLinks">
+                        <div class="footerSectionLinkTitle">Quick Links</div>
+                        <div class="footerSectionLinkItems">
+                            <a href="#">About US</a>
+                            <a href="#">Partner Login</a>
+                            <a href="#">Live Rates</a>
+                            <a href="#">Buy Forex</a>
+                            <a href="#">Forex Rates Today</a>
+                            <a href="#">TCS Calculator</a>
+                            <a href="#">Currency Converter</a>
+                            <a href="#">Remittance Limits</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                        </div>
+                    </div>
+                    <div class="footerSectionLinks">
+                        <div class="footerSectionLinkTitle">Send Money</div>
+                        <div class="footerSectionLinkItems">
+                            <a href="#">Send Money to USA</a>
+                            <a href="#">Send Money to Australia</a>
+                            <a href="#">Send Money to Canada</a>
+                            <a href="#">Send Money to UK</a>
+                            <a href="#">Send Money to New Zealand</a>
+                            <a href="#">Send Money to Germany</a>
+                            <a href="#">Send Money to France</a>
+                            <a href="#">Send Money to Singapore</a>
+                            <a href="#">Send Money to Europe</a>
+                            <a href="#">Send Money to UAE</a>
+                        </div>
+                    </div>
+                    <div class="footerSectionLinks">
+                        <div class="footerSectionLinkTitle">Foreign Exchange</div>
+                        <div class="footerSectionLinkItems">
+                            <a href="#">Currency Exchange in Bangalore</a>
+                            <a href="#">Currency Exchange in Chennai</a>
+                            <a href="#">Currency Exchange in Delhi</a>
+                            <a href="#">Currency Exchange in Mumbai</a>
+                            <a href="#">Currency Exchange in Hyderabad</a>
+                            <a href="#">Currency Exchange in Kolkata</a>
+                            <a href="#">Currency Exchange in Pune</a>
+                            <a href="#">Currency Exchange in Noida</a>
+                            <a href="#">Currency Exchange in Ahmedabad</a>
+                            <a href="#">Currency Exchange in Chandigarh</a>
+                        </div>
+                    </div>
+                </div>
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5ff86b172b1d692609da173c794a86301e833f0f467f9bb4018c444f6f71f8c?apiKey=df7d3f2c6db444dfb274d484c24387df&" class="footerSectionImageSmall" />
+            </div>
+            <div class="footerSectionDivider"></div>
+            <div class="footerSectionCopyright">Copyright © 2024 All Rights Reserved by ExTravelMoney Technosol (P) Ltd</div>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
